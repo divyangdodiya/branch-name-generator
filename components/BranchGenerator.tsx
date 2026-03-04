@@ -175,6 +175,9 @@ export default function BranchGenerator() {
               )}
             </Button>
           </div>
+          <p className="text-xs text-gray-600 dark:text-gray-400">
+            {generatedBranch.length} characters
+          </p>
         </div>
         </CardContent>
       </Card>
